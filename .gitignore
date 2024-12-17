@@ -1,0 +1,21 @@
+# Ignorar vendor/
+vendor/
+
+# Ignorar Composer ejecutable
+composer.phar
+
+# Ignorar configuraciones sensibles
+.env
+.env.*
+
+# Ignorar archivos temporales
+/tmp/
+*.log
+*.swp
+
+# Ignorar configuraciones de IDE
+.idea/
+.vscode/
+
+# Ignorar node_modules si usas Node.js
+node_modules/
